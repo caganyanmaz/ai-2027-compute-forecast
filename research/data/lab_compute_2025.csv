@@ -1,0 +1,6 @@
+lab,as_of,h100e_median,h100e_p05,h100e_p95,status,source_id
+OpenAI,2025-12-31,1743000,1251000,2185000,published_estimate,S07
+Google DeepMind,2025-12-31,1583000,1008000,2549000,published_estimate,S07
+Anthropic,2025-12-31,1190000,842000,1717000,published_estimate,S07
+Meta Superintelligence Labs,2025-12-31,996000,606000,1638000,published_estimate,S07
+SpaceXAI,2025-12-31,615000,551000,700000,published_estimate,S07

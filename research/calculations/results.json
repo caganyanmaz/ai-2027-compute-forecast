@@ -1,0 +1,163 @@
+{
+  "regression": {
+    "annual_growth_factor": 2.481362813696009,
+    "doubling_months": 9.15239170339513,
+    "annual_factor_90pct_regression_interval": [
+      2.297894137541175,
+      2.6794800128528755
+    ]
+  },
+  "scenarios": [
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 47780495.648758575,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 104022581.81071372,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 38832178.12678206,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 86125946.76676068,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 31307570,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.0,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 71076730.51319657,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 49268397.53360666,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 122569028.20145407,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 39263874.40191068,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 97557720.37221411,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 31307570,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 2.5,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 77666959.3674374,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 50594323.75936404,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 0,
+      "h100e_no_retirements": 141860222.46174473,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 39634917.76673981,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 1,
+      "h100e_no_retirements": 108982004.48387203,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2026,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 31307570,
+      "status": "illustrative_projection"
+    },
+    {
+      "year": 2027,
+      "annual_shipments_growth_factor": 3.0,
+      "deployment_lag_quarters": 2,
+      "h100e_no_retirements": 83999961.18365261,
+      "status": "illustrative_projection"
+    }
+  ],
+  "latest_complete_quarter_2026Q3_illustrative_operational_h100e": 31307570,
+  "central_2027_h100e": 97557720.37221411,
+  "central_2027_lab_h100e_at_20pct_share": 19511544.074442822,
+  "endpoint_anchored_original_2026_h100e": 43287612.810830586,
+  "endpoint_anchored_original_2027_h100e": 100000000.0,
+  "original_growth_product": 2.2275,
+  "original_40x_three_year_cagr": 3.4199518933533937,
+  "original_mar2025_to_dec2027_10x_cagr": 2.3101297000831598,
+  "original_225x_for_33months_h100e": 93004063.67129879,
+  "lab_2025_sum_of_medians_h100e": 6127000.0,
+  "training_example_fp16_flop": 2.245615488e+28,
+  "rubin_bandwidth_h100_be": 5.333333333333333,
+  "rubin_fp16_h100_equiv": 4.044489383215369,
+  "rubin_fp8_h100_equiv": 8.842849924204144,
+  "rubin_vs_22TB_bandwidth_change_pct": -12.727272727272732,
+  "example_rubin_chips_for_10T_fp8_weights": 44,
+  "example_energy_TWh_for_10GW_80pct_load": 70.08,
+  "capex_three_companies_2026_usd_billion_range": [
+    550,
+    570
+  ],
+  "capex_four_companies_2026_mixed_basis_usd_billion_range": [
+    720,
+    740
+  ]
+}

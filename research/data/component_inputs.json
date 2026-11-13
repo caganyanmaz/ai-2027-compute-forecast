@@ -1,0 +1,30 @@
+{
+  "cutoff": "2026-11-12",
+  "status": "Conditional calibrated component model, not an observed factory-capacity census",
+  "opening_stock": 20000000,
+  "hardware": {
+    "H100": {"fp8_pf":1.979,"fp16_pf":0.9895,"hbm_gb":80,"logic_mm2":814,"packaging_units":0.5},
+    "B300": {"fp8_pf":5,"fp16_pf":2.5,"hbm_gb":288,"logic_mm2":1628,"packaging_units":1},
+    "TPU7": {"fp8_pf":4.614,"fp16_pf":2.307,"hbm_gb":206.158430208,"logic_mm2":1600,"packaging_units":0.8},
+    "Rubin": {"fp8_pf":17.5,"fp16_pf":4,"hbm_gb":288,"logic_mm2":1800,"packaging_units":1.3}
+  },
+  "baseline_mix": {"H100":0.25,"B300":0.5,"TPU7":0.25,"Rubin":0},
+  "scenarios": {
+    "central": {"logic_growth":1.6,"packaging_growth":1.6,"dram_bit_growth":1.2,"extra_hbm_fraction":0,"lag":1,"annual_retirement":0,"end_mix":{"H100":0,"B300":0.25,"TPU7":0.25,"Rubin":0.5}},
+    "constrained": {"logic_growth":1.3,"packaging_growth":1.35,"dram_bit_growth":1.1,"extra_hbm_fraction":0.1,"lag":2,"annual_retirement":0.05,"end_mix":{"H100":0.1,"B300":0.4,"TPU7":0.25,"Rubin":0.25}},
+    "expansion": {"logic_growth":2,"packaging_growth":2,"dram_bit_growth":1.3,"extra_hbm_fraction":0,"lag":0,"annual_retirement":0,"end_mix":{"H100":0,"B300":0.1,"TPU7":0.2,"Rubin":0.7}}
+  },
+  "provenance": {
+    "opening_stock": "Approximate inherited Epoch baseline; see first report. Not a synchronized operational-stock measurement.",
+    "fp8_pf_fp16_pf": "Vendor specs C04-C07 in report; sparse Nvidia H100/B300 numbers divided by two, Rubin explicitly dense.",
+    "hbm_gb": "Vendor nominal capacities, TPU 192 GiB converted to decimal GB. B300 288 GB proxy assumption consistent with product family; rack specification is rounded 20 TB.",
+    "logic_mm2": "H100/B300 proxy areas carried from original model; TPU and Rubin chosen assumptions, NOT verified die measurements.",
+    "packaging_units": "All chosen relative resource burdens; NOT measured interposer areas or foundry wafer equivalents.",
+    "baseline_mix_end_mix": "All chosen package-count proxy mixtures, NOT vendor shipment forecasts. Other vendors represented by these hardware classes.",
+    "logic_growth": "Assumed annual growth in AI-allocated usable good silicon area; includes capacity, allocation, yields. No independently measured factory count.",
+    "packaging_growth": "Assumed annual growth in usable packaging resources. Central 1.6 informed by C03, whose over-60%-by-2027 statement does NOT establish a 2026-to-2027 annual rate.",
+    "dram_bit_growth": "Assumed annual total DRAM bit growth. HBM usable bits grow by this times 13/9 from C02. Ratio mapped to a constant annual trajectory from Q2 2026, an assumption.",
+    "extra_hbm_fraction": "Additional memory burden beyond hardware table, linearly phased by end-2027; assumption.",
+    "lag_annual_retirement": "Chosen scenarios; lag=1 informed by Epoch deployment methodology. No independently enforced power cap."
+  }
+}

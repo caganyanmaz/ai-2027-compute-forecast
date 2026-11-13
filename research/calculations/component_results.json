@@ -1,0 +1,45 @@
+{
+  "implied_baseline_packages": 3018611.7673717835,
+  "implied_baseline_resources": {
+    "logic": 4278882180.249503,
+    "packaging": 2490354.7080817213,
+    "hbm": 650630395.6911633
+  },
+  "scenarios": {
+    "central": {
+      "end_2026_operational_h100e_fp8": 39946865.28851512,
+      "end_2027_operational_h100e_fp8": 104494647.17875306,
+      "2027_shipments_h100e_fp8": 79113180.99121775,
+      "2027_shipments_h100e_fp16": 48872126.32818064,
+      "end_2027_cumulative_shipped_h100e_fp8": 130318074.11767823
+    },
+    "constrained": {
+      "end_2026_operational_h100e_fp8": 30244115.591425054,
+      "end_2027_operational_h100e_fp8": 66980604.91994886,
+      "2027_shipments_h100e_fp8": 51782196.96188497,
+      "2027_shipments_h100e_fp16": 38171714.90504803,
+      "end_2027_cumulative_shipped_h100e_fp8": 99585948.59660119
+    },
+    "expansion": {
+      "end_2026_operational_h100e_fp8": 54898046.166862026,
+      "end_2027_operational_h100e_fp8": 172954330.4782218,
+      "2027_shipments_h100e_fp8": 118056284.31135978,
+      "2027_shipments_h100e_fp16": 65286896.32599251,
+      "end_2027_cumulative_shipped_h100e_fp8": 172954330.4782218
+    }
+  },
+  "one_at_a_time_end_2027": {
+    "logic_growth=1.3": 96587903.09504847,
+    "logic_growth=2.0": 104494647.17875306,
+    "packaging_growth=1.35": 94660298.60474512,
+    "packaging_growth=2.0": 109267493.05213769,
+    "dram_bit_growth=1.1": 104494647.17875306,
+    "dram_bit_growth=1.3": 104494647.17875306,
+    "lag=0": 130318074.11767823,
+    "lag=2": 83043730.12628922,
+    "annual_retirement=0.05": 100341369.60504392,
+    "annual_retirement=0.1": 96278529.67680898,
+    "extra_hbm_fraction=0.2": 104494647.17875306,
+    "no_hardware_mix_transition": 76939055.97064467
+  }
+}

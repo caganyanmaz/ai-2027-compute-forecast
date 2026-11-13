@@ -1,0 +1,112 @@
+{
+  "status": "Illustrative isolated shocks, not news-derived parameter estimates or probability bounds",
+  "results": [
+    {
+      "case": "Reference",
+      "changes": {},
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 104494647.17875306,
+      "delta_percent": 0.0,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "Slower usable logic growth",
+      "changes": {
+        "logic_growth": 1.3
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 96587903.09504847,
+      "delta_percent": -7.566649868848274,
+      "q4_2027_production_bottleneck": "logic"
+    },
+    {
+      "case": "Slower usable packaging growth",
+      "changes": {
+        "packaging_growth": 1.35
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 94660298.60474512,
+      "delta_percent": -9.41134195820087,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "Faster usable packaging growth",
+      "changes": {
+        "packaging_growth": 2.0
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 109267493.05213769,
+      "delta_percent": 4.567550589668001,
+      "q4_2027_production_bottleneck": "logic"
+    },
+    {
+      "case": "Larger Rubin package burden",
+      "changes": {},
+      "rubin_package_burden": 1.6,
+      "end_2027_operational_fp8_h100e": 98779854.4188414,
+      "delta_percent": -5.46898134421726,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "HBM usable bits grow only 1.3x annually",
+      "changes": {
+        "dram_bit_growth": 0.9
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 95413340.63418974,
+      "delta_percent": -8.69069066191347,
+      "q4_2027_production_bottleneck": "hbm"
+    },
+    {
+      "case": "HBM usable bits grow 2x annually",
+      "changes": {
+        "dram_bit_growth": 1.3846153846153846
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 104494647.17875306,
+      "delta_percent": 0.0,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "Rubin reaches 25% of package mix",
+      "changes": {
+        "end_mix": {
+          "H100": 0,
+          "B300": 0.5,
+          "TPU7": 0.25,
+          "Rubin": 0.25
+        }
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 91717730.40924722,
+      "delta_percent": -12.227340935128572,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "Two-quarter commissioning delay",
+      "changes": {
+        "lag": 2
+      },
+      "rubin_package_burden": null,
+      "end_2027_operational_fp8_h100e": 83043730.12628922,
+      "delta_percent": -20.52824487341345,
+      "q4_2027_production_bottleneck": "packaging"
+    },
+    {
+      "case": "Joint packaging and Rubin mix stress",
+      "changes": {
+        "packaging_growth": 1.35,
+        "end_mix": {
+          "H100": 0,
+          "B300": 0.5,
+          "TPU7": 0.25,
+          "Rubin": 0.25
+        }
+      },
+      "rubin_package_burden": 1.6,
+      "end_2027_operational_fp8_h100e": 81595383.0183561,
+      "delta_percent": -21.914293964957356,
+      "q4_2027_production_bottleneck": "packaging"
+    }
+  ]
+}
